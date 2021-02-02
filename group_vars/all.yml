@@ -1,1 +1,6 @@
 zabbix_server: 10.66.77.201
+default_modules : 
+  - vim
+  - htop
+  - git
+  - tree

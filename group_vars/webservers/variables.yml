@@ -1,5 +1,6 @@
 php_version: php7.2
 php_modules: 
+  - pdftk
   - unzip
   - php7.2-xml
   - php7.2-zip

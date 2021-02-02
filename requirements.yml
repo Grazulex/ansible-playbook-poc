@@ -1,0 +1,12 @@
+- src: git@github.com:Grazulex/ansible-role-apt.git
+  name: apt
+  version: main
+  scm: git
+- src: https://github.com/Grazulex/ansible-role-zabbixagent
+  name: zabbixagent
+  version: main
+  scm: git
+- src: https://github.com/Grazulex/ansible-role-php
+  name: php
+  version: main
+  scm: git

@@ -1,6 +1,6 @@
 - name: Install new server
   hosts: all
   roles:
-  - apt
+  - aptupdate
   - zabbixagent
   - php

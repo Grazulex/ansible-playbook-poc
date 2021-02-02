@@ -1,5 +1,5 @@
 - src: git@github.com:Grazulex/ansible-role-apt.git
-  name: apt
+  name: aptupdate
   version: main
   scm: git
 - src: https://github.com/Grazulex/ansible-role-zabbixagent

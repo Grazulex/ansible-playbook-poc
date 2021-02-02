@@ -1,0 +1,14 @@
+---
+- name: Config initial 
+  hosts: all
+  become: true
+  become_user: root
+  tasks:
+  - name: Check if reboot is required
+    register: file
+    stat: path=/var/run/reboot-required get_md5=no
+  - name: Reboot the server
+    debug:
+      msg: need restart 
+    when: file.stat.exists == true
+

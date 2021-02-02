@@ -1,0 +1,54 @@
+[webservers]
+IPEX-API-HTTP01 ansible_host=10.12.157.215
+IPEX-API-HTTP02 ansible_host=10.66.76.71
+
+[dbservers]
+IPEX-API-DB01 ansible_host=10.66.34.17
+IPEX-API-DB02 ansible_host=10.66.81.201
+IPEX-API-DB03 ansible_host=10.66.75.69
+
+[lbservers]
+IPEX-API-LB ansible_host=10.66.23.215
+
+[fileservers]
+IPEX-API-FILE01 ansible_host=10.66.80.11
+IPEX-API-FILE02 ansible_host=10.66.82.213
+
+[redisservers]
+IPEX-API-REDIS01 ansible_host=10.66.248.131
+IPEX-API-REDIS02 ansible_host=10.66.47.11
+IPEX-API-REDIS03 ansible_host=10.66.15.143
+
+[rabbitservers]
+IPEX-API-RABBIT01 ansible_host=10.12.141.81
+IPEX-API-RABBIT02 ansible_host=10.66.17.75
+
+[consumerservers]
+IPEX-API-CONSUMER01 ansible_host=10.66.47.9
+IPEX-API-CONSUMER02 ansible_host=10.66.18.19
+
+[elasticservers]
+IPEX-API-ELASTIC01 ansible_host=10.12.183.205
+IPEX-API-ELASTIC02 ansible_host=10.66.10.197
+IPEX-API-ELASTIC03 ansible_host=10.12.184.7
+
+[sftpservers]
+IPEX-API-FTP01 ansible_host=10.66.12.3
+
+[monitoringservers]
+IPEX-API-MONITORING ansible_host=10.66.77.201
+IPEX-API-STATS ansible_host=10.66.74.139
+
+[sshservers]
+IPEX-API-SSH ansible_host=10.68.34.119
+
+[dockerservers]
+IPEX-API-DOCKER-MASTER01 ansible_host=10.66.12.79
+IPEX-API-DOCKER-NODE01 ansible_host=10.12.177.3
+IPEX-API-DOCKER-NODE02 ansible_host=10.66.64.141
+
+[securityservers]
+IPEX-API-SECURITY ansible_host=10.12.154.225
+
+[testservers]
+IPEX-API-TEST01 ansible_host=10.65.126.93

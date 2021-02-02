@@ -1,0 +1,8 @@
+php_version: php7.2
+php_modules: 
+  - unzip
+  - php7.2-xml
+  - php7.2-zip
+  - php7.2-curl
+  - php7.2-json
+  - php7.2-mbstring
